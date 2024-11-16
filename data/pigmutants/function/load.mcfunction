@@ -1,5 +1,5 @@
-execute if entity @e[type=pig] run tellraw @a [{"bold":true,"color":"light_purple","text":"Pigmutants"},{"bold":false,"color":"gray","text":":"},{"bold":false,"color":"white","text":" The pack is loaded!"}]
+execute if entity @e[type=pig,tag=pigmutant] run tellraw @a [{"bold":true,"color":"light_purple","text":"Pigmutant"},{"bold":false,"color":"gray","text":" >>"},{"bold":false,"color":"white","text":" I am alive!"}]
 
-scoreboard objectives add pig_effect dummy
+scoreboard objectives add pigmutant_effect dummy
 
-function pigmutants:pufferfish
+function pigmutant:pufferfish
