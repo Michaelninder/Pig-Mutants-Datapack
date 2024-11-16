@@ -5,6 +5,7 @@ execute at @e[tag=mutant] run summon hoglin ~ ~ ~ {CustomNameVisible:1b,IsImmune
 
 execute as @e[tag=mutant,type=pig] run kill @s
 execute as @e[tag=mutant] run kill @e[type=item,name="Raw Porkchop",distance=..5] 
+execute as @e[tag=mutant] run kill @e[type=item,name="Porkchop",distance=..5] 
 execute as @e[tag=mutant] run kill @e[type=experience_orb,distance=..5]
 
 schedule function mutant:gettingunbuffed 5s
