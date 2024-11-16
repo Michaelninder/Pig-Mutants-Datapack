@@ -1,1 +1,1 @@
-scoreboard players set @e gregor_effect 15
+scoreboard players set @e mutant_effect 15
